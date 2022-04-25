@@ -25,10 +25,10 @@ All components list have been given below –
 1.	Time IC – NE 555 (SOP-8)
 2.	Resistor – 1 KΩ (102) and 68.1 KΩ (6812)
 3.	Capacitor – 100uF/25v
-4.      Capacitor - 1000uF/25v
-5.      LED – 3v (20mA)
-6.      Diode – 1N 4007
-7.      Linear Voltage Regulators – 7805 (TO-252-DPAK)
+4.	Capacitor - 1000uF/25v
+5.	LED – 3v (20mA)
+6.	Diode – 1N 4007
+7.	Linear Voltage Regulators – 7805 (TO-252-DPAK)
 8.	Power Source – 9v
 
 
