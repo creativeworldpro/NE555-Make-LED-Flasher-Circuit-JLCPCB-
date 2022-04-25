@@ -23,20 +23,13 @@ You can order your assembled SMT circuit form JLCPCB.
 All components list have been given below –
 
 1.	Time IC – NE 555 (SOP-8)
-2.	
-3.	Resistor – 1 KΩ (102) and 68.1 KΩ (6812)
-4.	
-5.	Capacitor – 100uF/25v
-6.	
-7.	Capacitor - 1000uF/25v
-8.	
-9.	LED – 3v (20mA)
-10.	
-11.	Diode – 1N 4007
-12.	
-13.	Linear Voltage Regulators – 7805 (TO-252-DPAK)
-14.	
-15.	Power Source – 9v
+2.	Resistor – 1 KΩ (102) and 68.1 KΩ (6812)
+3.	Capacitor – 100uF/25v
+4.      Capacitor - 1000uF/25v
+5.      LED – 3v (20mA)
+6.      Diode – 1N 4007
+7.      Linear Voltage Regulators – 7805 (TO-252-DPAK)
+8.	Power Source – 9v
 
 
 NE555 Pin Out - 
@@ -52,22 +45,22 @@ Its 8 legs Pin Out can be seen above.
 1.	GND - The ground pin connects the 555 timer to the negative (0v) supply rail.
 
 
-3.	TRIG - The negative input to comparator No 1. A negative pulse on this pin “sets” the internal Flip-flop when the voltage drops below 1/3Vcc causing the output to switch from a “LOW” to a “HIGH” state.
+2.	TRIG - The negative input to comparator No 1. A negative pulse on this pin “sets” the internal Flip-flop when the voltage drops below 1/3Vcc causing the output to switch from a “LOW” to a “HIGH” state.
 
 
-5.	OUT - The output pin can drive any TTL circuit and is capable of sourcing or sinking up to 200mA of current at an output voltage equal to approximately Vcc – 1.5V so small speakers, LEDs or motors can be connected directly to the output.
+3.	OUT - The output pin can drive any TTL circuit and is capable of sourcing or sinking up to 200mA of current at an output voltage equal to approximately Vcc – 1.5V so small speakers, LEDs or motors can be connected directly to the output.
 
 
-7.	RESET - This pin is used to “reset” the internal Flip-flop controlling the state of the output, pin 3. This is an active-low input and is generally connected to a logic “1” level when not used to prevent any unwanted resetting of the output.
+4.	RESET - This pin is used to “reset” the internal Flip-flop controlling the state of the output, pin 3. This is an active-low input and is generally connected to a logic “1” level when not used to prevent any unwanted resetting of the output.
 
 
-9.	CONT - This pin controls the timing of the 555 by overriding the 2/3Vcc level of the voltage divider network. By applying a voltage to this pin the width of the output signal can be varied independently of the RC timing network. When not used it is connected to ground via a 10nF capacitor to eliminate any noise.
+5.	CONT - This pin controls the timing of the 555 by overriding the 2/3Vcc level of the voltage divider network. By applying a voltage to this pin the width of the output signal can be varied independently of the RC timing network. When not used it is connected to ground via a 10nF capacitor to eliminate any noise.
 
 
-11.	THRES - The positive input to comparator No 2. This pin is used to reset the Flip-flop when the voltage applied to it exceeds 2/3Vcc causing the output to switch from “HIGH” to “LOW” state. This pin connects directly to the RC timing circuit.
+6.	THRES - The positive input to comparator No 2. This pin is used to reset the Flip-flop when the voltage applied to it exceeds 2/3Vcc causing the output to switch from “HIGH” to “LOW” state. This pin connects directly to the RC timing circuit.
 
 
-13. DISCH - The discharge pin is connected directly to the Collector of an internal NPN transistor which is used to “discharge” the timing capacitor to ground when the output at pin 3 switches “LOW”.
+7. DISCH - The discharge pin is connected directly to the Collector of an internal NPN transistor which is used to “discharge” the timing capacitor to ground when the output at pin 3 switches “LOW”.
 
 
 8. VCC - This is the power supply pin and for general purpose TTL 555 
@@ -177,7 +170,9 @@ JLCPCB supported Payment method.
 
 
 •	PayPal
+
 •	Credit/Debit Care
+
 •	Prepaid wire transfer
 
 
